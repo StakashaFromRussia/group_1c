@@ -15,4 +15,8 @@
   <content>Enum.Платформы</content>
   <content>CommonModule.СтроковыеФункцииКлиентСервер</content>
   <content>Role.ПолныеПрава</content>
+  <content>DataProcessor.ЗагрузкаСотрудников</content>
+  <content>Constant.ЛогинАдминистратор</content>
+  <content>Constant.ПарольАдминистратор</content>
+  <content>CommonModule.ПодключениеКлиентСервер</content>
 </mdclass:Subsystem>

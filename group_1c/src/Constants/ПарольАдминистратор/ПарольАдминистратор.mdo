@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f66f9af4-3f03-4cf1-a54f-da01ef5e3050">
+  <producedTypes>
+    <managerType typeId="9ca7a17a-bf48-47a2-ae2a-ff26730c62fe" valueTypeId="e8c6bd3a-99ba-4981-9ed6-e53e07642f91"/>
+    <valueManagerType typeId="327a882d-adea-43db-a3d9-8505ac0b524b" valueTypeId="4fbe1dc0-0339-48da-8696-1d9e7d538bff"/>
+    <valueKeyType typeId="9ab81b6e-0ec7-49b6-b675-36df4813d089" valueTypeId="c1da6dfd-3741-4172-9d96-bfa2405e2e2b"/>
+  </producedTypes>
+  <name>ПарольАдминистратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль администратор</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>20</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

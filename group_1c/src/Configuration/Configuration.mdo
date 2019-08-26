@@ -34,10 +34,15 @@
   <subsystems>Subsystem.Сервис</subsystems>
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПодключениеКлиентСервер</commonModules>
+  <constants>Constant.ЛогинАдминистратор</constants>
+  <constants>Constant.ПарольАдминистратор</constants>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Серверы</catalogs>
   <catalogs>Catalog.ИнформационныеБазы</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <enums>Enum.Платформы</enums>
   <dataProcessors>DataProcessor.НачальныеНастройки</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаСотрудников</dataProcessors>
   <informationRegisters>InformationRegister.ВерсииПлатформ</informationRegisters>
 </mdclass:Configuration>
