@@ -35,4 +35,9 @@
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Серверы</catalogs>
+  <catalogs>Catalog.ИнформационныеБазы</catalogs>
+  <enums>Enum.Платформы</enums>
+  <dataProcessors>DataProcessor.НачальныеНастройки</dataProcessors>
+  <informationRegisters>InformationRegister.ВерсииПлатформ</informationRegisters>
 </mdclass:Configuration>

@@ -244,10 +244,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo">
-    <handlers>
-      <event>AfterWriteAtServer</event>
-      <name>ПослеЗаписиНаСервере</name>
-    </handlers>
-  </extInfo>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
 </form:Form>

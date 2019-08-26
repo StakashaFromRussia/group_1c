@@ -8,4 +8,11 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Пользователи</content>
+  <content>InformationRegister.ВерсииПлатформ</content>
+  <content>DataProcessor.НачальныеНастройки</content>
+  <content>Catalog.Серверы</content>
+  <content>Catalog.ИнформационныеБазы</content>
+  <content>Enum.Платформы</content>
+  <content>CommonModule.СтроковыеФункцииКлиентСервер</content>
+  <content>Role.ПолныеПрава</content>
 </mdclass:Subsystem>
