@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca4f301d-e88c-412f-ba46-28f49a646a1e">
+  <producedTypes>
+    <objectType typeId="79588cc5-841b-41dd-bc85-6542a454ba2e" valueTypeId="a6da1a8c-573b-48ca-ad92-c1622910e186"/>
+    <refType typeId="8a0db9ad-b6e8-47c6-9450-fc386164f638" valueTypeId="2defa22e-185b-4cf9-97fe-e3a40482023c"/>
+    <selectionType typeId="eeb7b32d-c47b-4197-9e7c-6bd5dc98cc5d" valueTypeId="c88f09aa-0c0b-41e1-8582-2aefeb1e350d"/>
+    <listType typeId="96d52066-af80-40be-8b45-f846ff12c1ae" valueTypeId="8fed3e2b-8f82-4180-b336-a62c3982e43d"/>
+    <managerType typeId="11b72f98-f3d3-4959-b28e-edad58f093c1" valueTypeId="a03b973f-d371-4463-9f41-d8d41286fdc8"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Пользователи.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="ebe157c6-57d9-4dee-950f-3b4004b916e6">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="84c15ede-b422-4d9c-8b7d-d82c22000f06">
+    <name>ИмяДляВхода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя для входа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="773a7bc2-ed57-4bac-8ece-af6f1d081262">
+    <name>ИдентификаторПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя ИБ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a09cc2e7-789c-4f7f-b92c-10323eafe454">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

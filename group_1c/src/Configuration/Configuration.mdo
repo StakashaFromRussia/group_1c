@@ -31,4 +31,8 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Сервис</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
+  <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>
