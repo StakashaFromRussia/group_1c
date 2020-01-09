@@ -106,6 +106,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Задачи.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="d76bb11e-27da-4397-9ff7-ec182c59687c">
     <name>ПолныйТекстЗадачи</name>
     <synonym>
@@ -141,4 +142,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="1b20652b-b4dd-4fb0-969e-ecb8faa6113a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
