@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b0f8d3a-9d15-4456-82de-7f128c2036ef">
+  <producedTypes>
+    <objectType typeId="828e0f28-9a17-41dd-9bc6-dc6f1f6785d6" valueTypeId="45f989d2-a90e-4721-ae35-b954783714bf"/>
+    <managerType typeId="41b974bd-6f56-42fc-a791-f53a21b5368d" valueTypeId="92f22a20-0d58-45aa-8fe7-e9c45e678dfc"/>
+  </producedTypes>
+  <name>СостояниеКонфигурацияИнформационныхБаз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние конфигурация ИБ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СостояниеКонфигурацияИнформационныхБаз.Form.Форма</defaultForm>
+  <tabularSections uuid="26320f45-9159-47cb-85be-1d33fdc3f09e">
+    <producedTypes>
+      <objectType typeId="a8388b83-ceed-40ea-8b15-e265d4477160" valueTypeId="95576933-dca3-4b4b-ab15-bfb556b3470c"/>
+      <rowType typeId="8c234e34-9f06-42a1-9802-1e019b330243" valueTypeId="0f1ee4bb-d82a-4f67-961e-4504bfd2c258"/>
+    </producedTypes>
+    <name>ВерсииКонфигураций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии конфигураций</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8953738e-fe18-48fe-94e1-7f00dd91bc7c">
+      <name>Конфигурация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конфигурация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Конфигурации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a7d637b4-33bd-4cc3-b70c-514832792ae4">
+      <name>ПредыдущаяВерсия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Предыдущая версия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="750df58a-32c7-4788-b003-7abf6e992549">
+      <name>ТекущаяВерсия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текущая версия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1a826efd-035a-49b8-add4-bde016d7e0d7">
+      <name>ДатаВыходаПоследнегоРелиза</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата выхода последнего релиза</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="06e57c75-6811-4d81-8562-9e981161402c">
+    <producedTypes>
+      <objectType typeId="a1106dd0-fbfa-4d2d-afbf-81388e32552f" valueTypeId="0a3c66a8-b788-4f1c-b0d8-de790d5e52b3"/>
+      <rowType typeId="9cfacd65-9e59-4336-9989-e532ea4f7a8c" valueTypeId="105d8d97-9457-4e44-bfdf-0bd1d414afec"/>
+    </producedTypes>
+    <name>ВерсииКонфигурацийИнформационныхБаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии конфигураций ИБ</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6947f546-d117-4b45-ba04-39f34c7cb627">
+      <name>Конфигурация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конфигурация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Конфигурации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="243c24ea-e1de-4777-b038-7b7f33265a39">
+      <name>ИнформационнаяБаза</name>
+      <synonym>
+        <key>ru</key>
+        <value>Информационная база</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИнформационныеБазы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a9c931fd-1fea-42f8-8363-61a6f4afd7b3">
+      <name>УстановленнаяВерсия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Установленная версия</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <mask>9.9.99.99</mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5b77f827-78f8-436a-881a-ae0959e7cba9">
+      <name>ТекущаяВерсияКонфигурации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текущая версия конфигурации</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>15</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="bdf74d4f-9626-43ef-b7bf-b9e87d5eca24">
+      <name>ДатаОбновления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата обновления</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="528d2b79-fd02-4515-9822-f1a5562ea5eb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

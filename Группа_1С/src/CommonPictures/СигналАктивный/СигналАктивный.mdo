@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a729588c-3753-4583-a58d-5c675680dfb7">
+  <name>СигналАктивный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сигнал активный</value>
+  </synonym>
+</mdclass:CommonPicture>

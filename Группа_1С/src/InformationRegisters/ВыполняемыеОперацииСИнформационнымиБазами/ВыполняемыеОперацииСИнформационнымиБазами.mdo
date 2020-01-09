@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="839352e8-0c1f-4fa8-94b1-c3a291329bbf">
+  <producedTypes>
+    <selectionType typeId="25d009f2-a84f-4602-bccd-235ef49995aa" valueTypeId="36818b1b-c5bb-4b30-b015-45ec5f5a502c"/>
+    <listType typeId="5b3a274c-43ed-404f-a159-9bb244c8f603" valueTypeId="453278d3-8f97-4192-9086-5e1a3a894227"/>
+    <managerType typeId="91c62be3-2681-4fc2-a1f1-c5d600b9dfb3" valueTypeId="5d8430de-d787-4892-92e2-d5c644977578"/>
+    <recordSetType typeId="86babc4c-6ad7-4c5b-b800-fbdf1c019ec1" valueTypeId="5fa3f46f-2f91-41d2-aee7-42a322f8fe86"/>
+    <recordKeyType typeId="d3b1235f-005a-419b-89fe-98c206fef85c" valueTypeId="be99d3dd-f0cc-46e8-b8cf-0ba58efae12d"/>
+    <recordType typeId="ca7cdab8-ed08-4c00-990b-df862d3a6210" valueTypeId="5e153fec-b811-434a-a1ee-334eb6618943"/>
+    <recordManagerType typeId="b6b27d66-8688-47ad-a2c6-4e72241b99b4" valueTypeId="87d2e432-a3b9-47b6-89d9-f7ef2529552c"/>
+  </producedTypes>
+  <name>ВыполняемыеОперацииСИнформационнымиБазами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполняемые операции с информационными базами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="4cd0a882-9d93-4fd0-9327-56de4a5e90a6">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b15198fc-2661-4c29-8c4a-d4a5ac52231d">
+    <name>Операция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

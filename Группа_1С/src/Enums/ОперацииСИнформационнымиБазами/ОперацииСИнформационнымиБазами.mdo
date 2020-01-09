@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7ac58c1-7c19-48c3-9459-82a1b97cb800">
+  <producedTypes>
+    <refType typeId="10b8dab7-f467-4f69-b395-9654debde1c4" valueTypeId="a2d9a0f4-c388-44e7-a920-2e51255a63f2"/>
+    <listType typeId="64b8c915-6b91-4ff2-8376-c95b2067f83c" valueTypeId="98eb515d-9917-450b-bdd3-8c687a5eb7bb"/>
+    <managerType typeId="0edf7c3a-bd00-4d9c-bad2-cf6dc31fee56" valueTypeId="5e0d719b-36f5-4ace-9a7d-56c706dea70e"/>
+  </producedTypes>
+  <name>ОперацииСИнформационнымиБазами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции с информационными базами</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="26d14762-4931-430b-884c-3e6e973b83c8">
+    <name>ВыгрузкаДТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка *.dt</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59d77caf-bfa0-46f1-a2a5-feeba3f371ae">
+    <name>ОбновлениеИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление ИБ (типовое)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

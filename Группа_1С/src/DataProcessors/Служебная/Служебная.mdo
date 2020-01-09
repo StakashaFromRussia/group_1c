@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e39a1fe-5dc5-483b-86dc-6d214d7944c2">
+  <producedTypes>
+    <objectType typeId="c8e3ae00-a4e7-401e-8bd6-284394320493" valueTypeId="5763d68e-5586-492b-850d-1bec541306cc"/>
+    <managerType typeId="b0a8e47b-331b-4fdb-9a16-99c9015b5928" valueTypeId="e3f3dc9f-6154-4dbe-b9e0-2478999fd8d4"/>
+  </producedTypes>
+  <name>Служебная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебная</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Служебная.Form.Форма</defaultForm>
+  <forms uuid="afdc51ae-f0c5-4768-93c6-650312322f36">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6524d950-fd5a-49c4-b11e-f7cda6330efe">
+    <name>ФормаИзмененияПароляПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменения пароля пользователя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

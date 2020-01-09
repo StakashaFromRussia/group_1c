@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f04be7d-af0f-4a66-972e-435a3eb3e186">
+  <producedTypes>
+    <selectionType typeId="874b3734-f216-4d03-be35-69338c12da9b" valueTypeId="02ddffd7-6b5c-47d6-8151-19e61d7b47cf"/>
+    <listType typeId="ba40f2cc-5f61-434b-9725-bbfa73989d91" valueTypeId="4f69bd70-9a21-4909-9d25-aeac37b48c24"/>
+    <managerType typeId="8f49d3d6-e88d-45ef-aeba-da9cfc32872a" valueTypeId="a23fdb29-863d-4883-ab49-f74c62695611"/>
+    <recordSetType typeId="60cc6f5b-0eba-4203-9ed4-d72ee9b1837d" valueTypeId="90139048-6b4e-4f3e-98c2-354dfad09754"/>
+    <recordKeyType typeId="44453d36-0bd6-4fc7-869a-493a1a3690fd" valueTypeId="3a6b7f62-75b0-4188-a508-1f9379e96b2c"/>
+    <recordType typeId="11830c4a-715c-4b55-bb3d-7cf1003a75b1" valueTypeId="adc7ae46-3c7a-490e-b11c-e9a22a944ba7"/>
+    <recordManagerType typeId="58e0d5e9-c965-449d-9383-64ca9750f222" valueTypeId="c8b4929b-f876-4d30-9f0f-20dfac1ec6dc"/>
+  </producedTypes>
+  <name>ВерсииТиповыхКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии типовых конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="94100ce2-5fc5-46e6-a116-92480befe83e">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="08b5232a-6cf7-469c-bd1c-aa88f1420a6e">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

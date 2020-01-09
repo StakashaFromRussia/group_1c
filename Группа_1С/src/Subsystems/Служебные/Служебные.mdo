@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfdf8c1d-a820-4b69-98cb-119cfc73468d">
+  <name>Служебные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Служебные</picture>
+  </picture>
+  <content>Catalog.ИнформационныеБазы</content>
+  <content>Enum.Платформы</content>
+  <content>Catalog.Серверы</content>
+  <content>Catalog.Пользователи</content>
+  <content>Constant.АдминистраторИБПароль</content>
+  <content>Constant.АдминистраторИБЛогин</content>
+  <content>CommonPicture.Служебные</content>
+  <content>CommonForm.ФормаНастройкиПрограммы</content>
+  <content>DataProcessor.Служебная</content>
+  <content>Document.ВыполнениеЗадач</content>
+  <content>Enum.ОперацииСИнформационнымиБазами</content>
+  <content>InformationRegister.ВыполняемыеОперацииСИнформационнымиБазами</content>
+  <content>InformationRegister.ИзмененияКонфигурацииИнформационнойБазы</content>
+  <content>DataProcessor.ЧтениеМетаданныхИнформационнойБазы</content>
+</mdclass:Subsystem>

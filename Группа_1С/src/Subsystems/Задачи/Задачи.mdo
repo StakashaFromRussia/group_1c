@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d3b2e79-153c-48f5-b945-fa642430928a">
+  <name>Задачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.УчетВыполненияЗадач</content>
+  <content>DataProcessor.УчетВыполненияЗадач</content>
+  <content>Catalog.Задачи</content>
+</mdclass:Subsystem>

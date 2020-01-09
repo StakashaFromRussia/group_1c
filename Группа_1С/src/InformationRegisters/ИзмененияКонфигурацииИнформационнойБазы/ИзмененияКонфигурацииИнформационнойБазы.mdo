@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="201ba8c7-d28c-45cc-b0e3-2f45bf1de2cc">
+  <producedTypes>
+    <selectionType typeId="0c36e6de-b2ed-44cb-af2f-96c40b052c7a" valueTypeId="83451c7c-a314-4486-8701-639cbb536c97"/>
+    <listType typeId="2e30f78e-13ac-4018-928b-47c09ef8275f" valueTypeId="c3dfe716-5799-491f-a610-4da283f2ef17"/>
+    <managerType typeId="6a747d0e-9b57-4e7d-9de1-12b383a0149b" valueTypeId="b5e21946-9161-4a44-8ff2-f596dce5b67d"/>
+    <recordSetType typeId="3a26b3fb-51f7-4c98-bc83-047d2370e72e" valueTypeId="1877bb89-9e09-4a98-8ed7-df8e37ed3fc4"/>
+    <recordKeyType typeId="5daeb63e-0e82-4887-8232-35469c4ba39b" valueTypeId="89524c5a-6e23-4a89-ac83-5ec82ca6551b"/>
+    <recordType typeId="ba2609df-c6e7-47f1-a3be-9577aad1296f" valueTypeId="1f3a06b2-e43c-4b3b-9b45-54d709273957"/>
+    <recordManagerType typeId="6c34aab5-0c9e-484d-9def-b29982737b64" valueTypeId="ac038604-8f74-4cfe-b5b8-6f9a1df447a8"/>
+  </producedTypes>
+  <name>ИзмененияКонфигурацииИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения конфигурации информационной базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="36d0e756-a345-4e4c-86dd-8300fb3d5530">
+    <name>Ресурс1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b4cca144-9e2a-4997-997b-e1267019230f">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5853139b-4501-4510-bf38-3d6e153a712f">
+    <name>ОбъектИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

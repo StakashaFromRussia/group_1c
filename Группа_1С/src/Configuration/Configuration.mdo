@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcbc6f85-a417-465c-8984-ea01bf5f16c3">
+  <name>ОбслуживаниеИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание информационных баз</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4a7be617-22d0-43a6-8550-7be4f31fbf81"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b83035da-3005-4ce2-a776-1140152266ef"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d3dc0d5f-bdd2-492e-b2e2-d35678e5eb86"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="42aafe76-84ef-4639-944c-529c66a587d4"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0cbaab7b-f4fa-439e-88ce-8d99ff133f68"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="29ba7f89-3805-4b48-b4b0-019266a976e1"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <vendor>Stakasha</vendor>
+  <version>0.0.0.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Обслуживание ИБ</value>
+  </briefInformation>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="d40c2314-c5ed-4887-8923-4a205687c2d7">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Служебные</subsystems>
+  <subsystems>Subsystem.ОбслуживаниеИнформационныхБаз</subsystems>
+  <subsystems>Subsystem.Задачи</subsystems>
+  <styleItems>StyleItem.ГУОВ</styleItems>
+  <styles>Style.ГУОВ</styles>
+  <commonPictures>CommonPicture.Служебные</commonPictures>
+  <commonPictures>CommonPicture.СигналАктивный</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <filterCriteria>FilterCriterion.КритерийОтбора1</filterCriteria>
+  <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
+  <eventSubscriptions>EventSubscription.ПодпискаНаСобытие1</eventSubscriptions>
+  <definedTypes>DefinedType.ОпределяемыйТип1</definedTypes>
+  <commonCommands>CommonCommand.ОбщаяКоманда1</commonCommands>
+  <constants>Constant.АдминистраторИБЛогин</constants>
+  <constants>Constant.АдминистраторИБПароль</constants>
+  <commonForms>CommonForm.ФормаИзмененияПароляАдминистратора</commonForms>
+  <commonForms>CommonForm.ФормаНастройкиПрограммы</commonForms>
+  <commonForms>CommonForm.ФормаУстановкиБлокировкиСеансов</commonForms>
+  <catalogs>Catalog.Задачи</catalogs>
+  <catalogs>Catalog.ИнформационныеБазы</catalogs>
+  <catalogs>Catalog.Конфигурации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Серверы</catalogs>
+  <documents>Document.ВыполнениеЗадач</documents>
+  <enums>Enum.Платформы</enums>
+  <enums>Enum.ВидыСерверов</enums>
+  <enums>Enum.ОперацииСИнформационнымиБазами</enums>
+  <dataProcessors>DataProcessor.Служебная</dataProcessors>
+  <dataProcessors>DataProcessor.СостояниеКонфигурацияИнформационныхБаз</dataProcessors>
+  <dataProcessors>DataProcessor.УчетВыполненияЗадач</dataProcessors>
+  <dataProcessors>DataProcessor.ЧтениеМетаданныхИнформационнойБазы</dataProcessors>
+  <informationRegisters>InformationRegister.СостояниеКонфигурацийИнформационныхБаз</informationRegisters>
+  <informationRegisters>InformationRegister.ВерсииТиповыхКонфигураций</informationRegisters>
+  <informationRegisters>InformationRegister.ВыполняемыеОперацииСИнформационнымиБазами</informationRegisters>
+  <informationRegisters>InformationRegister.ИзмененияКонфигурацииИнформационнойБазы</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.УчетВыполненияЗадач</accumulationRegisters>
+</mdclass:Configuration>

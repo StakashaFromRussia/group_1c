@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4c9dc85-d94b-49f3-809a-310419f19dbe">
+  <name>ГУОВ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ГУОВ</value>
+  </synonym>
+</mdclass:Style>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f915264-71e1-4f6e-b7a9-4637480196ff">
+  <name>ФормаУстановкиБлокировкиСеансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма установки блокировки сеансов</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

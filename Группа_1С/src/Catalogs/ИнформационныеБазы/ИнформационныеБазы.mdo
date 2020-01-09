@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ee8bfdf-4b9e-4f75-80e4-e408183eb24f">
+  <producedTypes>
+    <objectType typeId="b0b5a900-41db-48c6-a8dd-d8b8b77f1450" valueTypeId="997b3b1e-c68c-448d-a4fe-8e6c443f7196"/>
+    <refType typeId="494d25e2-3d81-4779-b698-6127d287e162" valueTypeId="874d3a50-0dca-4d57-b225-4733766516e2"/>
+    <selectionType typeId="b2f8fbb0-4b38-4ea9-ad86-a5e0c6837692" valueTypeId="ea63b408-38f1-4050-b4a0-550d9ee82f36"/>
+    <listType typeId="39217998-f3e9-45f1-a42d-3d6db4d4ca1e" valueTypeId="869597a2-a949-4d63-92e5-52d8f6377278"/>
+    <managerType typeId="57de8f25-1595-4de1-bd93-65fc1de29f73" valueTypeId="199fe153-c0a3-42f3-81c2-87c3906d0c2a"/>
+  </producedTypes>
+  <name>ИнформационныеБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационные базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИнформационныеБазы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИнформационныеБазы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Информационная база</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Информационная база</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Информационные базы</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Информационные базы</value>
+  </extendedListPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИнформационныеБазы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИнформационныеБазы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="c15ffcd8-fe99-4154-b9b8-93b129743a36">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d92a2dd-636d-4780-b381-d3a0e253a40c">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5139a813-3011-46b4-a907-1bcf726bc09c">
+    <name>SQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5489b842-025a-46c6-972b-312bccff7ba0">
+    <name>Платформа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платформа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Платформы</types>
+    </type>
+    <mask>9.9</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e196445-a422-4086-b9d6-9a70ff0e1519">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ac65a21-65a0-4d53-82f1-6be3690e5a33">
+    <name>Архивная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="775d6f62-1453-4a16-99a4-9825f2ffc554">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56b8f1d2-f704-47f2-9c75-24eefa66a6fc">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Серверы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2dbd9774-77a0-4a28-9358-71e010512841">
+    <name>Типовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типовая</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e59d554-e683-47ed-9ed8-7bc5ed6588fb">
+    <name>СерверБазДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер баз данных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Серверы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c77e491b-01ff-4a0e-8f20-6ecf10ae59ee">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d46d3b70-51b7-4a82-aaa7-74656afbc0a8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a1856037-50bd-40cc-964c-61b74bbc100f">
+    <name>ЗапуститьВРежимеПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запустить в режиме предприятия</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="bcd6169f-4264-4ff1-b9cc-64bddfdbddb6">
+    <name>ЗапуститьКонфигуратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запустить конфигуратор</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="e9c22e8f-12b3-4895-89f1-fb0119b1d09d">
+    <name>ОбновитьИнформациюИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить информацию о ИБ</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Производит обновление информации об ИБ</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="6adcd517-ae01-4a59-9bed-13b5afada2e4">
+    <name>УстановитьБлокировкуИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить блокировку ИБ</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Устанавливает блокировку начала сеансов</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="cbfd3f1d-b686-4052-a310-673f3b85ff18">
+    <name>СнятьБлокировкуИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снять блокировку ИБ</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Отключает блокировку начала сеансов (можно установить блокировку регламентных заданий)</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="e052d7a2-7762-488a-aaeb-5c9157a2a00b">
+    <name>ОбновитьКонфигурациюИзХранилища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить конфигурацию из хранилища</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновление основной конфигурации из хранилища конфигураций (для конфигураций, подключенных к хранилищу)</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="43eeee41-4917-4f19-a91b-9001b2330315">
+    <name>ОбновитьБазуДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить базу данных</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновление конфигурации базы данных</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="f9f9e828-9f80-4c55-9569-04de1465302a">
+    <name>ВыгрузитьФайлДТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузить файл *.dt</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Выгрузка базв в *.dt файл</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="78c71a08-cc6f-4496-ab5d-50f5fb5378fe">
+    <name>ЗавершитьСеансы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершить сеансы</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Завершение сеансов работы</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="ac036df1-3908-4015-a9c5-feab2e637032">
+    <name>ОбновитьИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить ИБ</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ИнформационныеБазы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновление конфигурации ИБ (для конфигураций на поддержке)</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

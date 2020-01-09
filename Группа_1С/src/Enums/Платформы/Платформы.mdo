@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bd809b9-6b4a-4e2d-bd33-f46e76179fb0">
+  <producedTypes>
+    <refType typeId="24412663-b99e-4649-8753-71035647e333" valueTypeId="3d627733-6e2e-40d6-a1cf-4fff8b09c4c9"/>
+    <listType typeId="52adf801-a71f-42cd-b236-5d93d0120871" valueTypeId="e067066f-c1c0-4e0a-94fc-a07b5f652bd8"/>
+    <managerType typeId="e67ebf50-d36c-4b78-8400-7eb00746167b" valueTypeId="7abd6b02-02f7-471c-ad17-a6e5d2d9711a"/>
+  </producedTypes>
+  <name>Платформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платформы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0dbf1ed1-dc98-4d4f-b7ca-6721396bc066">
+    <name>Версия81</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 8.1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de388546-8393-4051-9093-a5293f78858c">
+    <name>Версия82</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 8.2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="65e1db00-4231-4427-bde0-aed9f83e3eb4">
+    <name>Версия83</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия 8.3</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

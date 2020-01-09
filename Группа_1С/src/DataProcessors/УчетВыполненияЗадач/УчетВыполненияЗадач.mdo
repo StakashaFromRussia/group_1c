@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="289b760b-ce6c-4f30-891f-0bcbff6b41b9">
+  <producedTypes>
+    <objectType typeId="9cce9f55-1958-4b11-a368-2f10ba22ed68" valueTypeId="885d8f24-70e7-4778-b92e-3275e6a9d478"/>
+    <managerType typeId="979828f2-3d18-4510-b9f0-831768efd311" valueTypeId="c49228a9-105e-4bbe-85cc-af573cc7d68c"/>
+  </producedTypes>
+  <name>УчетВыполненияЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет выполнения задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УчетВыполненияЗадач.Form.Форма</defaultForm>
+  <attributes uuid="666bb815-07ca-4c9a-b7e1-02f0ef08cbec">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="964a840d-c0fb-4445-9abc-c566804b60eb">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65933258-17c6-4f64-b2cd-51d023a97018">
+  <producedTypes>
+    <refType typeId="6a94444e-3425-4dd0-8484-99bf6d6127ed" valueTypeId="21456b15-a4e3-454c-8a01-70190a4c0b73"/>
+    <listType typeId="0da80bc6-a362-413f-8051-c707d1f721a8" valueTypeId="17271618-f4ff-4cb5-b191-d5fb61f0b6df"/>
+    <managerType typeId="0dfd3b96-882c-46ca-b632-f1dc606c0914" valueTypeId="29ca646f-e2aa-4ffa-a7ea-9823510863cc"/>
+  </producedTypes>
+  <name>ВидыСерверов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды серверов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0439d659-9ea3-485e-8f80-48d4f7b24de3">
+    <name>СерверЛицензий1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер лицензий 1С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aef9660c-108a-4000-9b79-52bdd3316551">
+    <name>Сервер1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер 1С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea3ab88d-c8a3-4350-a6e6-addb114f5207">
+    <name>SQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

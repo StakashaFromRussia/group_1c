@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ce4e860-add8-4c3f-bfa6-9abdc746feca">
+  <producedTypes>
+    <objectType typeId="56ccaad7-dc44-4ebb-ada5-8bca17842432" valueTypeId="9edce804-24ee-4807-8c6d-28d1e97c229f"/>
+    <refType typeId="f8970492-4972-404f-8d3c-a94a05e5988d" valueTypeId="e6d8ffeb-820a-4625-8971-150b018b317b"/>
+    <selectionType typeId="59f81555-1f67-4dc9-a731-065dece80911" valueTypeId="be6c282b-3145-466c-a375-b35f2a7f73f5"/>
+    <listType typeId="97d24b72-8eb0-41d7-b808-35cdf81fd5de" valueTypeId="b5b04a5e-9c63-4839-9808-2ca9a44ede81"/>
+    <managerType typeId="bed68eef-e707-4985-9d2f-92a7b83a67b9" valueTypeId="f6f43cf1-6896-4142-a04c-9ccc7e878c64"/>
+  </producedTypes>
+  <name>ВыполнениеЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВыполнениеЗадач.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.УчетВыполненияЗадач</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1747c6c9-34b1-4c59-9d0c-c769df1ecfb1">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="56004f7e-5aee-43ca-b48d-95c5b9d8ec67">
+    <producedTypes>
+      <objectType typeId="d2d55621-499d-4386-b45f-c5ec8ac80278" valueTypeId="b50570b0-1606-4a7f-9fa7-b207585b75c8"/>
+      <rowType typeId="abf6f019-4176-4908-a2b8-fc9b63aa6ef3" valueTypeId="229039c2-4f21-4add-a9ef-c7ab469bae01"/>
+    </producedTypes>
+    <name>ВыполняемыеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняемые задачи</value>
+    </synonym>
+    <attributes uuid="2a1de5c0-00aa-46a4-a717-2747ec4cb2ac">
+      <name>Задача</name>
+      <synonym>
+        <key>ru</key>
+        <value>Задача</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Задачи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="188f33dd-ef88-4670-9bb3-c0863090e9a1">
+      <name>ЗатраченноеВремя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Затраченное время</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
