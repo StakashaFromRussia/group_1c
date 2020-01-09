@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8da79ecd-6d33-4d3a-9c25-e355e2503548">
+  <producedTypes>
+    <selectionType typeId="25508102-fe04-4994-a07c-f57ffac56d52" valueTypeId="e2ee4f1a-be81-4529-b3fe-abfcd38a5b63"/>
+    <listType typeId="62d9855f-57f6-44fe-943a-c5ed38bf28fc" valueTypeId="a81cc098-f513-4f63-8e6f-7b13e0870078"/>
+    <managerType typeId="8bd72fb5-9d24-4644-98bd-23e50e0a9147" valueTypeId="ba1cc5ba-2da0-42e9-83f7-056a986b319a"/>
+    <recordSetType typeId="18ac1673-93c4-4bf4-9ad8-3ca25663de84" valueTypeId="ddfcd91d-368c-4ae5-b21b-1e3e98eec554"/>
+    <recordKeyType typeId="4c7b2d39-a91e-4976-b8db-9968a45e0702" valueTypeId="cb2866e2-94ea-4637-b4de-00d472045d94"/>
+    <recordType typeId="28d9d3ed-12e6-486c-a9eb-e74e61c597b3" valueTypeId="4dee1cf4-1501-41f1-b2e2-e88245e06c4a"/>
+    <recordManagerType typeId="7c3eec4e-7aaf-4cbd-80be-6fe12397994f" valueTypeId="b99f6117-912e-49b9-94b6-47cb2ab360f3"/>
+  </producedTypes>
+  <name>ВерсииПлатформ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии платформ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="acabf7a1-3d4e-4c91-ad65-8f0c0ae0d757">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="2651ff36-24ff-48d6-a70a-5ff1a9dd40b4">
+    <name>Платформа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платформа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Платформы</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

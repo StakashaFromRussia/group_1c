@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72559c8b-9447-433c-8ffe-6affe6f7dc80">
+  <producedTypes>
+    <objectType typeId="8f36206d-6915-48a6-82a6-a46630d4861e" valueTypeId="ec8f6788-6f1b-447d-b9cd-efa831179860"/>
+    <refType typeId="5f689c78-d87b-43e9-b304-b579f4303f0c" valueTypeId="2954a7b9-d02f-4424-b0d1-da8a583bf442"/>
+    <selectionType typeId="4a0e67a7-8c91-43ed-b5d8-2d94ab86a618" valueTypeId="0f4246b7-9ea0-4e90-be03-3a834c02ab9a"/>
+    <listType typeId="efd01b2b-f09a-46e4-b1fb-4197e4eb33a3" valueTypeId="ed6dbd6f-7bb7-4497-a845-96b73ea62c2f"/>
+    <managerType typeId="0fb8e00e-7596-4dba-8a0c-f117d282dece" valueTypeId="946739b0-447b-4fbf-b635-40552510dd80"/>
+  </producedTypes>
+  <name>Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <comment>Физические лица из базы ГУОВ (ЗУП)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="6d54acd9-0832-4339-8ad3-94c23a1f4305">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <comment>Уникальный идентификатор справочника ФизическиеЛица ГУОВ (ЗУП)</comment>
+    <type>
+      <types>UUID</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a5c77b44-e5d7-4d38-a130-107b1c6a4329">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

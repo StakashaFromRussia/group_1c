@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e528165-47ea-41d7-8824-501489c5b973">
+  <producedTypes>
+    <objectType typeId="a017fc80-b05a-432d-9d54-0521037b1b5c" valueTypeId="b92bdab7-e3cc-4406-98d3-3da810641281"/>
+    <refType typeId="ca50962c-0fc5-4f16-bd64-736c79cca066" valueTypeId="04ee7318-b151-4311-8fa9-8316466851ef"/>
+    <selectionType typeId="d99f82ff-29f5-451d-b791-4c42508ef276" valueTypeId="e553e28e-a8f8-453e-960b-22539796538d"/>
+    <listType typeId="f269c7d9-9608-44e5-9a0e-d8cf56393476" valueTypeId="3708aa61-95ba-455a-9777-cf2588550529"/>
+    <managerType typeId="623a7584-17b3-4fcb-9c61-48747e980eca" valueTypeId="c42fc0dd-12d2-4b46-a29f-e2f3c9a9c752"/>
+  </producedTypes>
+  <name>ИнформационныеБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационные базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИнформационныеБазы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ИнформационныеБазы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="59aadf6b-69f0-498c-aa6d-2f945a442c77">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Серверы</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d50e9b85-e666-46c2-9a09-8cc700b41c1e">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f0b412f4-a122-452b-969c-d94210279847">
+    <name>Платформа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платформа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Платформы</types>
+    </type>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.Платформы.EnumValue.Версия83</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17d5350d-fb26-4f43-8fc1-c66cc08a257a">
+    <name>Файловая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файловая</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
