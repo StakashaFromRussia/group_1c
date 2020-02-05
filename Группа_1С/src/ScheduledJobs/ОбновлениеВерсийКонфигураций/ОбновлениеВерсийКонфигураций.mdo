@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Обновление версий конфигураций</value>
   </synonym>
-  <methodName>CommonModule.РегламентныеЗадания.ОбновлениеВерсийКонфигураций</methodName>
+  <methodName>CommonModule.РегламентныеЗаданияСервер.ОбновлениеВерсийКонфигураций</methodName>
   <description>ОбновлениеВерсийКонфигураций</description>
   <use>true</use>
   <predefined>true</predefined>

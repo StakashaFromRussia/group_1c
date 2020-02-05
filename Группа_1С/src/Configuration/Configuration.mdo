@@ -48,7 +48,7 @@
   <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияСервер</commonModules>
-  <commonModules>CommonModule.РегламентныеЗадания</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <eventSubscriptions>EventSubscription.ПодпискаНаСобытие1</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ОбновлениеВерсийКонфигураций</scheduledJobs>
   <definedTypes>DefinedType.ОпределяемыйТип1</definedTypes>
